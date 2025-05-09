@@ -1,0 +1,19 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+---
+description: Enforce minimalistic and futuristic design principles across the project.
+globs: ["**/*.tsx", "**/*.jsx", "**/*.css", "**/*.scss"]
+alwaysApply: true
+---
+
+- All UI components should adhere to a minimalistic and futuristic aesthetic.
+- Use a dark theme with neon accents (e.g., electric blue, bright cyan) for visual elements.
+- Typography should be sleek and sans-serif, promoting clarity and modernity.
+- Layouts must be clean with ample spacing to enhance readability and focus.
+- Incorporate subtle animations to provide a sense of interactivity without overwhelming the user.
+- Avoid clutter by limiting the number of elements on each screen.
+- Ensure responsiveness across devices, maintaining design integrity on various screen sizes.
+- Consistency is key: reuse design patterns and components to maintain a cohesive look and feel.
