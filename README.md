@@ -1,3 +1,5 @@
+![QuickQR OG](https://github.com/user-attachments/assets/9db72506-ef9e-4fa7-97a7-f76589e5b88b)
+
 # [QuickQR](https://quickqr.arshiash80.com)
 
 A minimalistic, futuristic QR code generator web app.
