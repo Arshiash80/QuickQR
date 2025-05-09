@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# [QuickQR](https://quickqr.arshiash80.com)
+
+A minimalistic, futuristic QR code generator web app.
+
+## Features
+
+- Instantly generate QR codes from any URL
+- Download QR codes as PNG or SVG
+- Copy or share the website via WhatsApp, LinkedIn, or X (Twitter)
+- Responsive, dark-themed UI with subtle animations and neon accents
+- Minimal, accessible, and consistent design
+
+## Tech Stack
+
+- Next.js (App Router)
+- React 19
+- Tailwind CSS (with OKLCH color palette)
+- Framer Motion (animations)
+- Sonner (toasts)
+- Lucide React (icons)
+- qrcode.react (QR code rendering)
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Run the development server:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Open in your browser:**
+   ```
+   http://localhost:3000
+   ```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `app/` — Next.js app directory
+- `components/` — UI and logic components
+- `app/globals.css` — Global styles and color variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Edit `app/globals.css` to adjust the color palette or theme.
+- Update components in `components/` for new features or design tweaks.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
